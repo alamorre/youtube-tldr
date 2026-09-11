@@ -1,8 +1,8 @@
-# theo-tldr
+# youtube-tldr
 
-Theo's takeaway and the evidence, in about a minute.
+The takeaway and the evidence, in about a minute.
 
-An agent skill that turns a Theo / T3 YouTube video into:
+An agent skill that turns a YouTube video from any creator into:
 
 - A **1–2 sentence TLDR** of the actual argument.
 - **3–5 key points** prioritizing statistics, demonstrations, and primary evidence, with timestamps and source links where available.
@@ -14,7 +14,7 @@ Skips sponsors, repetition, and clickbait framing. Separates opinions from verif
 For Codex, clone into your personal skills directory:
 
 ```sh
-git clone https://github.com/alamorre/theo-tldr.git "${CODEX_HOME:-$HOME/.codex}/skills/theo-tldr"
+git clone https://github.com/alamorre/youtube-tldr.git "${CODEX_HOME:-$HOME/.codex}/skills/youtube-tldr"
 ```
 
 Start a new session if the skill does not appear in your current session's skill list. For another agent that supports `SKILL.md`, place this folder in its documented skill directory.
@@ -22,7 +22,7 @@ Start a new session if the skill does not appear in your current session's skill
 ## Use
 
 ```text
-$theo-tldr https://www.youtube.com/watch?v=VIDEO_ID
+$youtube-tldr https://www.youtube.com/watch?v=VIDEO_ID
 ```
 
 Replace `VIDEO_ID` with a real video ID. You can use a `youtu.be` share link too, or provide a transcript directly.
@@ -45,4 +45,4 @@ Full transcripts are temporary working material, not intended output or reposito
 python3 -m unittest discover -s tests -v
 ```
 
-MIT licensed. Created by Adam La Morre. Unofficial; not affiliated with Theo or T3.
+MIT licensed. Created by Adam La Morre. Unofficial; not affiliated with YouTube or any video creator.

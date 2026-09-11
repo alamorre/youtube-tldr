@@ -1,4 +1,4 @@
 interface:
-  display_name: "Theo TLDR"
-  short_description: "Theo’s takeaway and evidence, minus the filler"
-  default_prompt: "Use $theo-tldr to summarize this Theo YouTube video in 1–2 sentences and 3–5 evidence-focused bullets."
+  display_name: "YouTube TLDR"
+  short_description: "YouTube takeaways and evidence, minus the filler"
+  default_prompt: "Use $youtube-tldr to summarize this YouTube video in 1–2 sentences and 3–5 evidence-focused bullets."
